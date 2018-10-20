@@ -1,0 +1,51 @@
+*{margin: 0; padding: 0;}
+#wrap{
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+}
+#wrapContent{
+	width: 100%;
+	float: left;
+}
+#header{
+	width: 100%;
+	float: left;
+	padding-top: 20px;
+}
+#header #titulo{
+	text-align: center;
+	font-size: 180%;
+	font-weight: bold;
+	font-family: "Trebuchet MS";
+}
+#header #menu a{	
+	width: auto;
+	float: left;
+	text-decoration: none;
+	color: #babaca;
+	padding: 3px 6px 0px 6px;
+}
+#header #menu a:hover{
+	text-decoration: none;
+	background-color: #3d3db1;	
+}
+#wrapFotos{
+	width: 100%;
+	min-height: 200px;
+	padding: 3px;
+	float: left;
+	border: solid 1px green;
+}
+#foto{
+	width: 102px;
+	height: auto;
+	float: left;
+	border: solid 1px;
+	margin-left:10px;
+	margin-top: 10px;
+}
+#foto img{
+	float: left;
+	width: 100%;
+}
